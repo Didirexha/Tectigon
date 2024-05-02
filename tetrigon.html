@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="tetrigon.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tectikon</title>
+  </head>
+  <body>
+    <div id="home-page-background">
+      <div id="didi">
+        <nav>
+          <h1 class="logo" id="home-page" onclick="homePage()">TECTIKON</h1>
+
+          <ul>
+            <div id="renditja">
+              <li onclick="setAboutView()"><a>ABOUT US</a></li>
+              <li onclick="setContactView()"><a> CONTACT US</a></li>
+            </div>
+          </ul>
+        </nav>
+
+        <div id="software">
+          <div class="span-buton">
+            <span style="color: white">
+              WE ARE BUILDING <br />
+              <span style="font-weight: bold">SOFTWARE</span> TO HELP
+            </span>
+            <button class="buton-register" onclick="registerForm()">
+              SIGN IN
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="about-us-view">
+        <h1 class="about-h1">We build IT for you.</h1>
+        <div class="about-us">
+          <h1 class="we-are">We are TECTIKON.</h1>
+          <span> We digitize your idea. We are focused on web,
+            software, and app development as the critical pillars that help the
+            company digitize ideas that fulfill a need, address an issue, or
+            satisfy a customer. In essence, the company is concerned with
+            developing websites through web design, web content, web
+            engineering, web design, e-commerce, etc. Our focus also lies in
+            conceiving, specifying, designing, programming, and testing mobile
+            applications, frameworks, and other software components.
+            Additionally, creating and programming apps for computers, mobile
+            phones, and other types of electronic devices is an imperative
+            component of our work. Our vision is to deliver the utmost solution
+            to numerous problems through platforms such as mobile apps (iOS and
+            Android) as well as responsive websites. TECTIKON, therefore,
+            specializes in web, software, and app development from scratch of a
+            prototype design to traction channels that lead to the successful
+            and healthy growth of our clients.</span>
+          
+        </div>
+      </div>
+      <div id="contact-us-view">
+        <div class="contact-h1">
+          <h1>CONTACT US</h1>
+        </div>
+
+        <div class="contact-us">
+          <h1 class="conversation">Let's Start a Conversation</h1>
+          <div class="spans-company-name">
+            <div class="spans">
+              <span class="ask">Ask how we can help you:</span>
+              <span class="see">See our platform in action</span>
+              <span
+                >Request a personalized demo, or sign up for 30-day free trial
+                of TECTIKON's performance marketing platform.</span
+              >
+            </div>
+            <span class="company-name">TECTIKON</span>
+          </div>
+        </div>
+      </div>
+      <div id="register-view">
+        <div class="register-container">
+          <h1 class="titulli-register">CREATE ACCOUNT</h1>
+          <span>Email</span>
+          <input type="text" placeholder="type email" />
+          <span>Password</span>
+          <input type="password" placeholder="type password" />
+          <span>Repeat password</span>
+          <input type="password" placeholder="type password again" />
+          <button class="back-to-signin" onclick="backToSignIn()">
+            BACK TO SIGN IN
+          </button>
+        </div>
+      </div>
+      <div id="login-view">
+        <div class="login-container">
+          <h1 class="titulli-login">SIGN IN</h1>
+          <span>Email</span>
+          <input type="text" placeholder="type email" />
+          <span>Password</span>
+          <input type="password" placeholder="type password" />
+          <button class="login">Login</button>
+          <span class="go-to-login" onclick="createAcc()">CREATE ACCOUNT</span>
+        </div>
+      </div>
+    </div>
+    <script src="tetrigon.js"></script>
+  </body>
+</html>
